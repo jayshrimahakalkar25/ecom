@@ -1,0 +1,26 @@
+<div class="f-products">
+  <div class="col-2">
+    <h1>Top Categories</h1>
+  </div>
+  <div class="col-3">
+    <div class="f-box" *ngFor="let singleProduct of allCategories">
+      <img class="box" src="{{singleProduct.imgName}}" alt="" >
+      <p>{{singleProduct.name}}</p>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="f-wrapper"  *ngFor="let allProduct of featuredCategories">
+      <img class="featured-p" src="../../assets/{{allProduct.imgName}}.png" alt="">
+      <span>{{allProduct.name}}</span>
+      <span>${{allProduct.price}}</span>
+     <div class="rating">
+      <span *ngFor="let item of [].constructor(allProduct.rating )">
+        <i class="ri-star-fill"></i>
+        </span>
+        <span *ngFor="let item of [].constructor(5-allProduct.rating )">
+          <i class="ri-star-line"></i>
+          </span>
+     </div>
+    </div>
+  </div>
+</div>
