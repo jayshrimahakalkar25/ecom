@@ -1,12 +1,15 @@
 <div class="cart">
     <div class="col-5">
         <h1>Featured Products</h1>
+        <div class="underline">
+
+        </div>
     </div>
        <div class="box-2">
         <div class="shop-wrapper" *ngFor="let item of shopProduct">
-        <img class="shop-img" src="../../assets/{{item.imgName}}.png" alt="">
-        <span>{{item.name}}</span>
-        <span>{{item.price}}.00 / Kg</span>
+          <img class="shop-img" src="../../assets/{{item.imgName}}.png" alt="">
+          <span>{{item.name}}</span>
+          <span>{{item.price}}.00 / Kg</span>
         <div class="rating">
             <span *ngFor="let item of [].constructor(item.rating )">
               <i class="ri-star-fill"></i>
@@ -15,7 +18,7 @@
                 <i class="ri-star-line"></i>
                 </span>
            </div>
-           <button class="btn"> Add to cart </button>
+           <button class="btn"><i class="ri-shopping-cart-2-fill bag"></i>  Add to cart </button>
       </div>
        </div>
 </div>

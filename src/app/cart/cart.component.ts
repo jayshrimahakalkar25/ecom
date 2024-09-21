@@ -32,27 +32,27 @@ shopProduct = [
     rating:3,
   },
   {
-    name : 'Tomato',
+    name : 'Watermelon',
     price : 30.00,
-    imgName :'photo-01',
+    imgName :'photo-05',
     rating:4,
   },
   {
-    name : 'Cucumber',
+    name : 'Brinjal',
     price : 20.00,
-    imgName :'photo-02',
+    imgName :'photo-06',
     rating:5,
   },
   {
-    name : 'Carrot',
+    name : 'Ladyfinger',
     price : 59.00,
-    imgName :'photo-03',
+    imgName :'photo-07',
     rating:4,
   },
   {
-    name : 'Cabbage',
-    price : 40.00,
-    imgName :'photo-04',
+    name : 'Custard Apple',
+    price : 80.00,
+    imgName :'photo-08',
     rating:3,
   }
 ]
