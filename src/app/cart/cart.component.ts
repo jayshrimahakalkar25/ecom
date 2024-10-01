@@ -60,6 +60,7 @@ export class CartComponent {
   carItem: any = [];
   counterValue = 0;
 
+
   addToCart(prodcutDetails: any) {
     this.carItem.push(prodcutDetails);
     this.counterValue = this.carItem.length;

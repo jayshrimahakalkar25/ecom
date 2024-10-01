@@ -11,16 +11,16 @@ const routes: Routes = [
     component: MainComponent,
   },
   {
-    path: 'home',
+    path: 'tenth',
     component: MainComponent,
   },
   {
-    path: 'categories',
-    component: ProductsComponent ,
+    path: '12th',
+    component: ProductsComponent,
   },
   {
-    path: 'shop',
-    component: CartComponent ,
+    path: 'BE',
+    component: CartComponent,
   },
 ];
 
