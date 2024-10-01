@@ -32,28 +32,28 @@ export class CartComponent {
       rating: 3,
     },
     {
-      name: 'Watermelon',
+      name: 'Ladyfinger',
       price: 30.0,
       imgName: 'photo-05',
-      rating: 4,
+      rating: 5,
     },
     {
       name: 'Brinjal',
       price: 20.0,
       imgName: 'photo-06',
-      rating: 5,
+      rating: 4,
     },
     {
-      name: 'Ladyfinger',
+      name: 'Watermelon',
       price: 59.0,
       imgName: 'photo-07',
-      rating: 4,
+      rating: 3,
     },
     {
       name: 'Custard Apple',
       price: 80.0,
       imgName: 'photo-08',
-      rating: 3,
+      rating: 2,
     },
   ];
 
@@ -68,4 +68,5 @@ export class CartComponent {
   showMyproduct() {
     console.log(this.carItem);
   }
+
 }
